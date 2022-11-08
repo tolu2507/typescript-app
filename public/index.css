@@ -1,14 +1,82 @@
-#img {
-  display: block;
-  margin: auto;
-  height: 128px;
-  width: 128px;
-  padding: 2rem;
-}
+ body{
+  background-color: rgba(0, 0, 0, 0.897);
+  padding: 1rem;
+ }
+ .list-type {
+   list-style: none;
+   padding: 1rem;
+   border: .1rem rgba(3, 3, 3, 0.473) solid;
+   border-radius: 1rem;
+   background-color: rgba(243, 40, 40, 0.377);
+   border: none;
+ }
 
-#canvas {
-  display: block;
-  margin: 2rem auto;
-  width: 540px;
-  height: 540px;
-}
+ li {
+   padding: 1rem;
+   border: .1rem rgba(247, 234, 234, 0.993) solid;
+   border-radius: 1rem;
+   background-color: rgba(248, 238, 144, 0.699);
+   margin-bottom: .5rem;
+   font-size: large;
+   font-style: italic;
+   font-weight: bold;
+ }
+
+ li:hover {
+   background-color: antiquewhite;
+   color: brown;
+ }
+
+ #new-task-title {
+   width: 50vh;
+   padding: 1rem;
+   border: none;
+   border-radius: 5rem;
+   margin-right: 1rem;
+   color: rgb(244, 245, 245);
+   font-size: large;
+   font-family: 'Times New Roman', Times, serif;
+   font-style: italic;
+   font-weight: bolder;
+   background-image: linear-gradient(to right, rgba(221, 98, 98, 0.753), rgba(129, 248, 129, 0.425));
+ }
+
+ #new-task-form {
+   display: flex;
+   justify-content: center;
+ }
+
+ button {
+   width: 3rem;
+   height: 3rem;
+   border: none;
+   border-radius: 100%;
+   background-color: brown;
+   color: aliceblue;
+ }
+
+ button:hover {
+  background-color: chartreuse;
+    color: rgb(255, 147, 5);
+ }
+
+ .header{
+  display: flex;
+  justify-content: center;
+  border: none;
+  border-radius: 1rem;
+  background-color: rgba(143, 62, 66, 0.521);
+  padding: 1rem 0rem;
+ }
+ .head{
+    border:none;
+    border-radius: 1rem;
+    background-color: rgba(228, 204, 204, 0.945);
+    padding: 0rem 1rem;
+    color: rgb(253, 7, 7);
+    font-style: italic;
+ }
+ .head:hover{
+  background-color: aliceblue;
+  color: black;
+ }
